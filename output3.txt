@@ -1,0 +1,28 @@
+Booking 1 CBD Wicked, Zeppelin, Floyd; Penrith Queen
+Booking 2 CBD Wicked, Zeppelin, Floyd; Penrith Queen
+Booking 3 CBD Wicked, Zeppelin, Floyd; Penrith Queen
+Booking 4 CBD Wicked, Zeppelin, Floyd; Penrith Queen
+Booking 5 CBD Wicked, Zeppelin, Floyd; Penrith Queen; Cremorne Ramones, Nirvana; Sutherland Purple, Hendrix, Eagle
+Change 1 CBD Wicked, Zeppelin, Floyd; Penrith Queen
+Booking 6 CBD Wicked, Zeppelin, Floyd; Penrith Queen
+Cancel 6
+Change 3 CBD Wicked, Zeppelin, Floyd; Penrith Queen
+Change 4 CBD Wicked, Zeppelin, Floyd; Penrith Queen
+Change rejected
+Booking 7 CBD Wicked, Zeppelin; Penrith Queen; Sutherland Purple
+Change 2 CBD Floyd; Sutherland Hendrix
+CBD Wicked 23:00 Apr 02 12:00 Apr 05
+CBD Wicked 23:00 Apr 12 12:00 Apr 15
+CBD Wicked 23:00 Jun 08 12:00 Jun 11
+CBD Wicked 23:00 Oct 12 12:00 Oct 15
+CBD Wicked 10:00 Dec 10 15:00 Dec 15
+CBD Zeppelin 23:00 Apr 02 12:00 Apr 05
+CBD Zeppelin 23:00 Apr 12 12:00 Apr 15
+CBD Zeppelin 23:00 Jun 08 12:00 Jun 11
+CBD Zeppelin 23:00 Oct 12 12:00 Oct 15
+CBD Zeppelin 10:00 Dec 10 15:00 Dec 15
+CBD Floyd 23:00 Apr 02 12:00 Apr 05
+CBD Floyd 23:00 Apr 12 12:00 Apr 15
+CBD Floyd 23:00 Jun 08 12:00 Jun 11
+CBD Floyd 23:00 Oct 12 12:00 Oct 15
+CBD Floyd 11:00 Dec 10 13:00 Dec 15

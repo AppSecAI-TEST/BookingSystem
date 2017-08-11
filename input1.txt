@@ -1,0 +1,51 @@
+#This testing file focuses primarily on the request and cancel functions
+
+
+#Load all caravans in, 5 Autos and 4 manuals
+Location CBD Wicked Automatic
+Location CBD Zeppelin Automatic
+Location CBD Floyd Automatic
+Location Penrith Queen Manual
+Location Cremorne Ramones Automatic
+Location Cremorne Nirvana Automatic
+Location Sutherland Purple Manual
+Location Sutherland Hendrix Manual
+Location Sutherland Eagle Manual
+
+
+#Test orders with too many manuals and automatics
+Request 1 23 Mar 25 12 Mar 26 6 Automatic 5 Manual
+
+#Test order with too many manuals but enough automatics
+Request 2 23 Mar 25 12 Mar 26 2 Automatic 15 Manual
+
+#Test order with too many automatics but enough manuals
+Request 3 23 Mar 25 12 Mar 26 20 Automatic 2 Manual
+
+#Ensure no bookings were made
+Cancel 1
+Cancel 2
+Cancel 3
+
+#Testing upper bounds
+Request 1 23 Mar 25 12 Mar 26 5 Automatic 4 Manual
+
+#Ensure no more available
+Request 2 23 Mar 25 12 Mar 26 1 Automatic 1 Manual
+
+Cancel 1
+
+#Ensure Print doesn't print out anything from old bookings
+Print CBD
+
+#Regular booking
+Request 1 23 Mar 25 12 Mar 26 3 Automatic 1 Manual
+
+#Test one hour buffer post
+Request 2 12 Mar 26 12 Mar 28 3 Automatic 1 Manual
+
+#Test one hour buffer pre
+Request 1 23 Mar 22 23 Mar 25 3 Automatic 1 Manual
+
+#Test one hour buffer correct
+Request 2 23 Mar 22 13 Mar 25 3 Automatic 1 Manual
